@@ -1,0 +1,179 @@
+/*Home Page Responsive Code*/
+@media(max-width:907px) {
+
+    .carousel .slide img {
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .slider-container span {
+        width: 100%;
+        height: auto;
+        font-size: 24px;
+    }
+
+    .daily-blog {
+        width: 40%;
+        height: 110px;
+        margin: 240px;
+        margin-right: 50px;
+        margin-top: 70px;
+        font-size: 15px;
+
+    }
+
+    .tutorial {
+        width: 40%;
+        height: auto;
+        margin: 240px;
+        margin-right: 50px;
+        margin-top: -190px;
+        font-size: 15px;
+    }
+
+    .projects {
+        width: 40%;
+        height: auto;
+        margin: 240px;
+        margin-right: 50px;
+        margin-top: -190px;
+        font-size: 15px;
+    }
+
+    .posts {
+        margin-right: 50px;
+        margin-top: -160px;
+    }
+
+    .et {
+        margin: -360px;
+        margin-top: 20px;
+    }
+
+    .about-me {
+        margin-top: 440px;
+    }
+
+}
+.search-container{
+  margin: 100px;
+}
+@media(max-width:720px) {
+
+
+
+    .carousel .slide img {
+        width: 99.9%;
+        height: auto;
+
+
+
+    }
+
+    .slider-container span {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+
+    }
+
+    .daily-blog {
+        width: 90%;
+        height: 115px;
+        margin: 2vw 4vh;
+        margin-left: 0px;
+        margin: 10px;
+        font-size: 16px;
+        margin-top: 30px;
+
+
+
+    }
+
+    .tutorial {
+        width: 95.0%;
+        height: 160px;
+        margin: 2vw 4vh;
+        margin-left: 0px;
+        margin: 10px;
+        font-size: 16px;
+        margin-top: 0px;
+
+    }
+
+    .projects {
+        width: 95.0%;
+        height: 130px;
+        margin: 2vw 4vh;
+        margin-left: 0px;
+        margin: 10px;
+        font-size: 16px;
+        margin-top: 30px;
+
+    }
+    .blog-posts .A2{
+        display: none;
+    }
+    .mission h2 {
+        margin-top: 20px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        color: darkcyan;
+        font-weight: 600;
+
+    }
+
+    
+    .blogger{
+        margin-top: 200px;
+    }
+    .blog-posts {
+       margin-top: 20px; 
+       display: flex;
+       flex-direction: column;
+       
+    }
+
+
+    .et {
+        margin: -560px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+    }
+
+    .about-me {
+        margin-top: 50px;
+
+    }
+}
+
+/*Blog Page Responsive Code*/
+/* CSS for desktop and larger screens */
+
+
+/* const search = () => {
+            const searchbox = document.getElementById("search-item").value.toUpperCase();
+            const storeitems = document.getElementById("blog-posts")
+            const product = document.querySelectorAll(".page")
+            const pname = document.getElementsByTagName("h3")
+
+            for (var i = 0; i < pname.length; i++){
+                let match = product[i].getElementsByTagName('h2')[0];
+
+                if (match) {
+                 let textvalue = match.textContent || match.innerHTML
+                }
+                 if(textvalue.toUpperCase().indexOf(searchbox) > -1){
+                    product[i].style.display = "";
+
+                 }
+                 else {
+                    product[i].style.display = "none";
+                 }
+            }
+          }
+ */
